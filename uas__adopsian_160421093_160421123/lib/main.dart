@@ -21,7 +21,7 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   checkUser().then((int result) {
     if (result == -1) {
-      runApp(const Login());
+      runApp(const LoginForm());
     } else {
       active_user = result;
       runApp(const MyApp());

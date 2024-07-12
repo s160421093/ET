@@ -125,7 +125,7 @@ class _AdoptState extends State<Offer> {
                                     .push(
                                       MaterialPageRoute(
                                         builder: (context) =>
-                                            EditOffer(adopt: anD[i]),
+                                            EditOffer(adopt:anD[i]),
                                       ),
                                     )
                                     .then((value) => bacaData());

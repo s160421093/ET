@@ -96,7 +96,7 @@ class _BrowseState extends State<Browse> {
                                           "https://ubaya.me/flutter/160421093/proposeAnimal.php"),
                                       body: {
                                         'id': listAnimal[index].id.toString(),
-                                        'userID':
+                                        'user_id':
                                             prefs.getInt("user_id").toString(),
                                         'description': description,
                                       },
